@@ -13,7 +13,7 @@ export default function CategoriesScreen({navigation}) {
             });
         }
     
-        return <CategoryGridTitle 
+        return <CategoryGridTitle   
         title={itemData.item.title} 
         color={itemData.item.color} 
         onPress={pressHandler}/>
