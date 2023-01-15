@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Cook-Circle",
+    "name": "Cook Circle",
     "slug": "Cook-Circle",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -19,16 +19,24 @@
       "**/*"
     ],
     "ios": {
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 2,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.monika171.cookcircle"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bda00bbc-081a-40d8-aad2-009b990c6165"
+      }
     }
   }
 }
